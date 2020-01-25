@@ -5,6 +5,8 @@ sudo: false
 cache: packages
 warning_are_errors: true
 
+r_packages: stringi
+
 os:
   - linux
   - osx
