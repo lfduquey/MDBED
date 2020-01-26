@@ -1,6 +1,6 @@
 #' @title Joint CDF of the bivariate Exponential distribution (BED) based on the Moran-Downton model
 #'
-#' @description Given the values of the parameters, this function provides the value of the joint CDF of the BED for a pair or pairs
+#' @description Given the values of the parameters, this function provides the value of the joint CDF of the BED for a positive pair or pairs
 #' (x,y). The required inputs are the correlation coefficient, the scale parameters of the marginal distributions, and the pair/s (x,y).
 #'
 #' @usage pBED(rho,Betax,Betay,x,y)
@@ -77,8 +77,7 @@ i<-NULL
 #-----------------------------------------------------------------------------------------------------------------------
 # 4. Apply the CDF function to each pair of values
 
-
-  numCores <- parallel::detectCores()
+  numCores <- 2L
   doParallel::registerDoParallel(numCores)
 
   p<-foreach::foreach(i=1:length(x),.combine=c) %dopar% {

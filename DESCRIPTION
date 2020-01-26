@@ -13,8 +13,11 @@ Description: Through several functions, this package provides 3D plots of the Mo
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports:Rdpack,orthopolynom,foreach,lattice,parallel,doParallel,ggplot2,graphics,psych,stats
+Imports: Rdpack,orthopolynom,foreach,lattice,parallel,doParallel,ggplot2,graphics,psych,stats
 RdMacros: Rdpack
 RoxygenNote: 7.0.2
 NeedsCompilation: no
 Packaged: 2020-01-24 17:12:51 UTC; ASUS
+Suggests: 
+    testthat,
+    covr

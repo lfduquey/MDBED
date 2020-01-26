@@ -78,7 +78,6 @@ i<-d<-NULL
 #-----------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------
 # 4. Define the contours to be plotted.
-# reference: https://stackoverflow.com/questions/23437000/how-to-plot-a-contour-line-showing-where-95-of-values-fall-within-in-r-and-in
 
   z <- sort(df$d)
   c<- cumsum(z) * 0.01 * 0.01

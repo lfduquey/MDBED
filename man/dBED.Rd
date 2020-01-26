@@ -21,7 +21,7 @@ dBED(rho,Betax,Betay,x,y)
 The value of the joint PDF of the pair/s (x,y).
 }
 \description{
-Given the values of the parameters, this function provides the joint density value of the BED for a pair or pairs
+Given the values of the parameters, this function provides the joint density value of the BED for a positive pair or pairs
 (x,y). The required inputs are the correlation coefficient, the scale parameters of the marginal distributions,
 and the pair/s (x,y).
 }

@@ -59,7 +59,6 @@ CondBED<-function(rho,Betax,Betay,x){
 
 
     # Building of the CDF of the conditional distribution (numerical integration of C_y (Riemann Sum))
-    # based on https://stackoverflow.com/questions/40851328/compute-area-under-density-estimation-curve-i-e-probability/52415208#52415208
     dyx<-ny[2]-ny[1]
     C <- sum(fyx)*dyx #normalizing constant
     Fyx<-cumsum(fyx)*dyx/C

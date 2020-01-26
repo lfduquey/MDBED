@@ -71,7 +71,6 @@ i<-NULL
 
 
       # Building of the CDF of the conditional distribution (numerical integration of C_eta (Riemann Sum))
-      # based on https://stackoverflow.com/questions/40851328/compute-area-under-density-estimation-curve-i-e-probability/52415208#52415208
       dx<-neta[2]-neta[1]
       C <- sum(C_eta,na.rm = TRUE)*dx #normalizing constant
       Fx<-cumsum(C_eta)*dx/C  # the fastest way to find the Fx
@@ -99,9 +98,7 @@ i<-NULL
 # 1.3 Generate the conditional distribution for each value of etahat and draw a value from this distribution to
 # generate the correlated value of eta.
 
-    #library(foreach) # to load the operator %dopar%
-
-    numCores <- parallel::detectCores()
+    numCores <- 2L
     doParallel::registerDoParallel(numCores)
     eta<-foreach::foreach(i=1:length(etahat),.combine=c) %dopar% {
       eta<-ConD(etahat[i],rho=rho)}
