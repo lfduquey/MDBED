@@ -3,7 +3,7 @@ Type: Package
 Title: Moran-Downton Bivariate Exponential Distribution (MDBED)
 Version: 1.0.0
 Author: Luis F. Duque <lfduquey@gmail.com>
-Maintainer: Luis F. Duque <lfduquey@gamail.com>
+Maintainer: Luis F. Duque <lfduquey@gmail.com>
 Description: Through several functions, this package provides 3D plots of the Moran-Downton bivariate Exponential 
   distribution (BED), generates bivariate random values, and also provides values of the joint and conditional PDFs and CDFs. 
 License: GPL-3
