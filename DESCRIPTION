@@ -6,10 +6,6 @@ Author: Luis F. Duque <lfduquey@gmail.com>
 Maintainer: Luis F. Duque <lfduquey@gamail.com>
 Description: Through several functions, this package provides 3D plots of the Moran-Downton bivariate Exponential 
   distribution (BED), generates bivariate random values, and also provides values of the joint and conditional PDFs and CDFs. 
-  The MDBED can be used to represent the joint distribution of: i) the interarrival and service time 
-  of a single-server queueing system, ii) the lengths of successive time intervals, iii) hydrological quantities as a streamflow at 
-  two points on a river or rainfall at two locations, iv) intensity and duration of a storm of rainfall, v) height and period of water waves, 
-  vi) successive wave heights, and vii) peak flows and their forecasts.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
