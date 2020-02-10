@@ -2,7 +2,7 @@
 % Please edit documentation in R/pBED.R
 \name{pBED}
 \alias{pBED}
-\title{Joint CDF of the bivariate Exponential distribution (BED) based on the Moran-Downton model}
+\title{Joint CDF of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 pBED(rho,Betax,Betay,x,y)
 }

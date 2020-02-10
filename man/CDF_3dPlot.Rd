@@ -2,7 +2,7 @@
 % Please edit documentation in R/CDF_3dPlot.R
 \name{CDF_3dPlot}
 \alias{CDF_3dPlot}
-\title{3D plot of the joint CDF of the bivariate exponential distribution (BED) based on the Moran-Downton model.}
+\title{3D plot of the joint CDF of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 CDF_3dPlot(
   rho,

@@ -1,5 +1,5 @@
-#' @title Conditional distribution of Y given X=x of the Bivariate Exponential distribution (BED)
-#' based on the Moran-Downton model.
+#' @title Conditional distribution of Y given X=x of the bivariate exponential distribution (BED)
+#' based on the Moran-Downton model
 #'
 #' @description This function computes the conditional PDF and CDF of Y given X=x of the BED
 #' based on the equations of the conditional moments of the Moran-Downton model.

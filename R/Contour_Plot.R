@@ -1,4 +1,4 @@
-#' @title Contour plot of the bivariate Exponential distribution (BED) based on the Moran-Downton model.
+#' @title Contour plot of the bivariate exponential distribution (BED) based on the Moran-Downton model
 #'
 #' @description This function builds the contour plot of the BED. The required inputs are the correlation coefficient, the
 #' scale parameters of the marginal distributions, and the values of the cumulative joint probabilities associated

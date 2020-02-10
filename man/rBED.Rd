@@ -2,7 +2,7 @@
 % Please edit documentation in R/rBED.R
 \name{rBED}
 \alias{rBED}
-\title{Bivariate generator of the bivariate Exponential distribution (BED) based on the Moran-Downton model.}
+\title{Bivariate generator of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 rBED(rho,Betax,Betay,n)
 }
@@ -23,7 +23,7 @@ This function generates jointly random values from the BED. The required inputs 
 generated, the correlation coefficient, and the scale parameters of the marginal distributions.
 }
 \details{
-The bivariate generator generates jointly Exponential random values based on the conditional distribution
+The bivariate generator generates jointly exponential random values based on the conditional distribution
 of Y given X=x based on Eq.18 described in \insertCite{Nagao1971;textual}{MDBED}. Thus, it first
 generates random values of X; then, the conditional moments associated with the values of
 x are computed. Finally, the random values of Y are obtained by drawing a random value from each conditional distribution

@@ -2,7 +2,7 @@
 % Please edit documentation in R/Contour_Plot.R
 \name{Contour_Plot}
 \alias{Contour_Plot}
-\title{Contour plot of the bivariate Exponential distribution (BED) based on the Moran-Downton model.}
+\title{Contour plot of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 Contour_Plot(
   rho,

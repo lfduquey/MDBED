@@ -2,7 +2,7 @@
 % Please edit documentation in R/dBED.R
 \name{dBED}
 \alias{dBED}
-\title{Joint density function of the bivariate Exponential distribution (BED) based on the Moran-Downton model}
+\title{Joint density function of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 dBED(rho,Betax,Betay,x,y)
 }

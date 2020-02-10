@@ -1,4 +1,4 @@
-#' @title Joint density function of the bivariate Exponential distribution (BED) based on the Moran-Downton model
+#' @title Joint density function of the bivariate exponential distribution (BED) based on the Moran-Downton model
 #'
 #' @description Given the values of the parameters, this function provides the joint density value of the BED for a positive pair or pairs
 #' (x,y). The required inputs are the correlation coefficient, the scale parameters of the marginal distributions,

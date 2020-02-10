@@ -1,4 +1,4 @@
-#' @title 3D plot of the joint PDF of the bivariate Exponential distribution (BED) based on the Moran-Downton model.
+#' @title 3D plot of the joint PDF of the bivariate exponential distribution (BED) based on the Moran-Downton model
 #'
 #' @description This function builds a 3D plot of the joint PDF of the BED. The required inputs are the correlation
 #' coefficient and the scale parameters of the marginal distributions. This function also allows several

@@ -2,7 +2,7 @@
 % Please edit documentation in R/PDF_3dPlot.R
 \name{PDF_3dPlot}
 \alias{PDF_3dPlot}
-\title{3D plot of the joint PDF of the bivariate Exponential distribution (BED) based on the Moran-Downton model.}
+\title{3D plot of the joint PDF of the bivariate exponential distribution (BED) based on the Moran-Downton model}
 \usage{
 PDF_3dPlot(
   rho,

@@ -2,8 +2,8 @@
 % Please edit documentation in R/CondBED.R
 \name{CondBED}
 \alias{CondBED}
-\title{Conditional distribution of Y given X=x of the Bivariate Exponential distribution (BED)
-based on the Moran-Downton model.}
+\title{Conditional distribution of Y given X=x of the bivariate exponential distribution (BED)
+based on the Moran-Downton model}
 \usage{
 CondBED(rho,Betax,Betay,x)
 }
