@@ -29,8 +29,7 @@
 #' @import ggplot2
 #'
 #'
-#' @examples
-#' \dontrun{Contour_Plot(rho=0.5,Betax=1,Betay=1)}
+#' @examples Contour_Plot(rho=0.5,Betax=1,Betay=1)
 #' @export
 Contour_Plot<-function(rho,Betax,Betay,Pr=c(5,25,75,95),xlabel="x",ylabel="y",title="BED",
                        Rvalues=FALSE, n=1000){

@@ -36,7 +36,7 @@ generate NA values. The \code{\link{rBED}} function is set to avoid this problem
 100000.
 }
 \examples{
-\dontrun{rBED(n=100,Betax=1,Betay=1,rho=0.85)}
+rBED(n=100,Betax=1,Betay=1,rho=0.85)
 }
 \references{
 \insertAllCited{}

@@ -47,7 +47,7 @@ to the contours (Default values 5\%, 25\%, 75\%, and 95\%). This function also a
 the contour plot.
 }
 \examples{
-\dontrun{Contour_Plot(rho=0.5,Betax=1,Betay=1)}
+Contour_Plot(rho=0.5,Betax=1,Betay=1)
 }
 \author{
 Luis F. Duque <lfduquey@gmail.com> <l.f.duque-yaguache2@newcastle.ac.uk>

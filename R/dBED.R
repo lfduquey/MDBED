@@ -25,7 +25,7 @@
 #'
 #' @references \insertAllCited{}
 #'
-#' @examples \dontrun{dBED(rho=0.85,Betax=1,Betay=1,x=0.6,y=0.8)}
+#' @examples dBED(rho=0.85,Betax=1,Betay=1,x=0.6,y=0.8)
 #'
 #' @export
 dBED<-function(rho,Betax,Betay,x,y){

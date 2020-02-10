@@ -28,7 +28,7 @@ Given the values of the parameters, this function provides the value of the join
 The values of the joint density function are computed based on Eq.10.54 described in \insertCite{Balakrishna2009;textual}{MDBED}.
 }
 \examples{
-\dontrun{pBED(rho=0.85,Betax=1,Betay=1, x=0.6,y=0.8)}
+pBED(rho=0.85,Betax=1,Betay=1, x=0.6,y=0.8)
 }
 \references{
 \insertAllCited{}

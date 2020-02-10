@@ -30,9 +30,9 @@
 #'
 #' @importFrom stats approx punif rexp na.omit
 #'
-#' @examples \dontrun{
-#' Data<-rBED(n=100,Betax=1,Betay=1,rho=0.85)
-#' CondBED(rho=0.85,Betax=1,Betay=1,x=Data[,1])}
+#' @examples
+#' Data<-rBED(n=50,Betax=1,Betay=1,rho=0.85)
+#' Conyx<-CondBED(rho=0.85,Betax=1,Betay=1,x=Data[,1])
 #' @export
 CondBED<-function(rho,Betax,Betay,x){
 

@@ -35,9 +35,8 @@ computed based on the coditional moments of the Moran-Downton model described in
 The conditional CDF is computed via numerical integration of the conditional PDF based on the Riemann sum method.
 }
 \examples{
-\dontrun{
-Data<-rBED(n=100,Betax=1,Betay=1,rho=0.85)
-CondBED(rho=0.85,Betax=1,Betay=1,x=Data[,1])}
+Data<-rBED(n=50,Betax=1,Betay=1,rho=0.85)
+Conyx<-CondBED(rho=0.85,Betax=1,Betay=1,x=Data[,1])
 }
 \references{
 \insertAllCited{}

@@ -47,7 +47,7 @@ characteristics of the plot to be set.
 Based on the function \code{\link[graphics]{persp}} of the \code{\link{graphics}} package.
 }
 \examples{
-\dontrun{PDF_3dPlot(rho=0.85,Betax=1,Betay=1)}
+PDF_3dPlot(rho=0.85,Betax=1,Betay=1)
 }
 \author{
 Luis F. Duque <lfduquey@gmail.com> <l.f.duque-yaguache2@newcastle.ac.uk>

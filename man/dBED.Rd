@@ -33,7 +33,7 @@ The equation of the PDF is based on the Bessel function. Therefore,  for very ex
 generate NA values.
 }
 \examples{
-\dontrun{dBED(rho=0.85,Betax=1,Betay=1,x=0.6,y=0.8)}
+dBED(rho=0.85,Betax=1,Betay=1,x=0.6,y=0.8)
 
 }
 \references{

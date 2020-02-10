@@ -29,8 +29,7 @@
 #' @importFrom graphics plot
 #'
 #'
-#' @examples
-#' \dontrun{CDF_3dPlot(rho=0.85,Betax=1,Betay=1)}
+#' @examples CDF_3dPlot(rho=0.85,Betax=1,Betay=1)
 #' @export
 CDF_3dPlot<-function(rho,Betax,Betay,xlabel="x",ylabel="y",zlabel="Joint CDF",
                      title="BED",angle=45,GS=0.5){
@@ -78,7 +77,7 @@ i<-NULL
   y<-rep(y1,length(x1))
   df<-data.frame(x,y)
 
-  numCores <- parallel::detectCores()
+  numCores <- 2L
   doParallel::registerDoParallel(numCores)
 
 

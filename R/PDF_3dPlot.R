@@ -23,7 +23,7 @@
 #'
 #' @importFrom graphics persp
 #'
-#' @examples \dontrun{PDF_3dPlot(rho=0.85,Betax=1,Betay=1)}
+#' @examples PDF_3dPlot(rho=0.85,Betax=1,Betay=1)
 #' @export
 PDF_3dPlot<-function(rho,Betax,Betay,xlabel="x",ylabel="y",zlabel="Joint PDF",
                      title="BED",angle=-35,GS=0.5){

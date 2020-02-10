@@ -32,7 +32,7 @@
 #' @importFrom parallel detectCores
 #' @importFrom doParallel registerDoParallel stopImplicitCluster
 #' @importFrom stats approx punif rexp na.omit
-#' @examples \dontrun{rBED(n=100,Betax=1,Betay=1,rho=0.85)}
+#' @examples rBED(n=100,Betax=1,Betay=1,rho=0.85)
 #' @export
 rBED<-function(rho,Betax,Betay,n){
 

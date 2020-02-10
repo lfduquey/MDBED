@@ -30,3 +30,8 @@ Please unwrap the examples if they are executable in < 5 sec, or create
 additionally small toy examples to allow automatic testing.
 You could also replace \dontrun{} with \donttest{}, but it would be
 preferable to have automatic checks for functions.
+
+## Address CRAN-comments by Jelena Saf
+* The sentence 'Through several functions, this package provides' was removed from the description field.
+* Relevant citations were included in the description field.
+* \dontrun{} was removed in the examples of each function; they are executable in < 5 sec.
