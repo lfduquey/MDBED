@@ -34,4 +34,4 @@ preferable to have automatic checks for functions.
 ## Address CRAN-comments by Jelena Saf
 * The sentence 'Through several functions, this package provides' was removed from the description field.
 * Relevant citations were included in the description field.
-* \dontrun{} was removed in the examples of each function; they are executable in < 5 sec.
+* \dontrun{} was removed from the examples of each function; they are executable in < 5 sec.
