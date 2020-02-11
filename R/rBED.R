@@ -98,7 +98,7 @@ i<-NULL
 # 1.3 Generate the conditional distribution for each value of etahat and draw a value from this distribution to
 # generate the correlated value of eta.
 
-    numCores <- 2L
+    numCores <- ifelse(parallel::detectCores()>=2,2,1)
     doParallel::registerDoParallel(numCores)
     eta<-foreach::foreach(i=1:length(etahat),.combine=c) %dopar% {
       eta<-ConD(etahat[i],rho=rho)}

@@ -47,7 +47,7 @@ function also allows several characteristics of the plot to be set.
 Based on the function \code{\link[lattice]{wireframe}} of the \code{\link{lattice}} package.
 }
 \examples{
-CDF_3dPlot(rho=0.85,Betax=1,Betay=1)
+\donttest{CDF_3dPlot(rho=0.85,Betax=1,Betay=1)}
 }
 \author{
 Luis F. Duque <lfduquey@gmail.com> <l.f.duque-yaguache2@newcastle.ac.uk>

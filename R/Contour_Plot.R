@@ -29,7 +29,7 @@
 #' @import ggplot2
 #'
 #'
-#' @examples Contour_Plot(rho=0.5,Betax=1,Betay=1)
+#' @examples \donttest{Contour_Plot(rho=0.5,Betax=1,Betay=1)}
 #' @export
 Contour_Plot<-function(rho,Betax,Betay,Pr=c(5,25,75,95),xlabel="x",ylabel="y",title="BED",
                        Rvalues=FALSE, n=1000){
@@ -156,7 +156,7 @@ etahat<-base::sort(etahat)
 
       eta<-rep(0,length(etahat))
 
-      numCores <- 2L
+      numCores <- ifelse(parallel::detectCores()>=2,2,1)
       doParallel::registerDoParallel(numCores)
       eta<-foreach::foreach(i=1:length(etahat),.combine=c) %dopar% {
         Results<-ConD(etahat[i],rho=rho)
