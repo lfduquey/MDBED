@@ -117,7 +117,7 @@ There were 2 NOTEs:
 
 #### Submission comments 
 
-11-02-2020 This is a resubmission. In this version I have:
+12-02-2020 This is a resubmission. In this version I have:
 
   * Written the title in title case.
   * Omitted the MDBED in the title.
