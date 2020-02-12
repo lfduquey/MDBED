@@ -33,7 +33,7 @@ PDF_3dPlot(
 
 \item{angle}{Angle of the 3D projection.}
 
-\item{GS}{Gride spacing; value between 0 and 1 (Default value 0.5)}
+\item{GS}{Grid spacing; value between 0 and 1 (Default value 0.5)}
 }
 \value{
 A 3D plot of the joint PDF of the BED is provided.

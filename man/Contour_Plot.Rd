@@ -23,7 +23,7 @@ Contour_Plot(
 
 \item{Betay}{Scale parameter of the marginal distribution of y.}
 
-\item{Pr}{A value or vector of values specifing the cumulative joint probability associated to the countour plot.
+\item{Pr}{A value or vector of values specifing the cumulative joint probability associated to the contour plot.
 Default values 5\%, 25\%, 75\%, and 95\%.}
 
 \item{xlabel}{Label of the x-axis.}
@@ -33,7 +33,7 @@ Default values 5\%, 25\%, 75\%, and 95\%.}
 \item{title}{Title of the figure.}
 
 \item{Rvalues}{True or False variable (Optional). If TRUE is specified, pairs (x,y) are plotted on the contour plot.
-If FALSE is specifed, only the contours are plotted. Deafault FALSE.}
+If FALSE is specifed, only the contours are plotted. Default FALSE.}
 
 \item{n}{Numbers of pairs (x,y) to be plotted if Rvalues is specified as TRUE. Default value 1000.}
 }

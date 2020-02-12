@@ -33,7 +33,7 @@ CDF_3dPlot(
 
 \item{angle}{Angle of the 3D projection (Default value 45).}
 
-\item{GS}{Gride spacing; value between 0 and 1 (Default value 0.5).}
+\item{GS}{Grid spacing; value between 0 and 1 (Default value 0.5).}
 }
 \value{
 A 3D plot of the joint CDF of the BED is provided.
