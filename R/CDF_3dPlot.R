@@ -13,7 +13,7 @@
 #' @param zlabel Label of the z-axis.
 #' @param title Title of the figure.
 #' @param angle Angle of the 3D projection (Default value 45).
-#' @param GS Gride spacing; value between 0 and 1 (Default value 0.5).
+#' @param GS Grid spacing; value between 0 and 1 (Default value 0.5).
 #'
 #' @details Based on the function \code{\link[lattice]{wireframe}} of the \code{\link{lattice}} package.
 #'

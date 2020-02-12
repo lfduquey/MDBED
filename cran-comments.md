@@ -5,14 +5,28 @@
 * ubuntu 14.04 (on travis-ci), R 3.6.1
 * win-builder (devel and release)
 
+#### R CMD check results
+There were no ERRORs, or WARNINGs.
+
+There were 2 NOTEs:
+
+  * Checking CRAN incoming feasibility ... NOTE
+  Maintainer: 'Luis F. Duque <lfduquey@gmail.com>'
+  
+  According to CRAN Maintainer Uwe Ligges, "This is just a note that reminds CRAN maintainers to check that the          submission comes actually from his maintainer and not anybody else." Thus, it can be considered a harmless note.
+
+  * checking top-level files ... NOTE
+  Files 'README.md' or 'NEWS.md' cannot be checked without 'pandoc' being installed.
+  
+  It is a harmless note. If I add the README.md file to .Rbuildignore, this note will disappear, but I prefer to leave   it. 
+  
+
 #### Submission comments 
 27-01-2020
 
-0 errors | 0 warnings | 2 notes
-
-* Two harmless notes.
-* This is a new release.
-
+* New submission
+  
+  
 #### Reviewer comments
 
 10-02-2020 Jelena Saf
@@ -45,15 +59,28 @@ preferable to have automatic checks for functions.
 * ubuntu 14.04 (on travis-ci), R 3.6.1
 * win-builder (devel and release)
 
+#### R CMD check results
+There were no ERRORs, or WARNINGs.
+
+There were 2 NOTEs:
+
+  * Checking CRAN incoming feasibility ... NOTE
+  Maintainer: 'Luis F. Duque <lfduquey@gmail.com>'
+  
+  According to CRAN Maintainer Uwe Ligges, "This is just a note that reminds CRAN maintainers to check that the          submission comes actually from his maintainer and not anybody else." Thus, it can be considered a harmless note.
+
+  * checking top-level files ... NOTE
+  Files 'README.md' or 'NEWS.md' cannot be checked without 'pandoc' being installed.
+  
+  It is a harmless note. If I add the README.md file to .Rbuildignore, this note will disappear, but I prefer to leave   it. 
+  
 #### Submission comments 
 
-10-02-2020
+10-02-2020 This is a resubmission. In this version I have:
 
-0 errors | 0 warnings | 2 notes
-
-* The sentence 'Through several functions, this package provides' was removed from the description field.
-* Relevant citations were included in the description field.
-* \dontrun{} was removed from the examples of each function; they are executable in < 5 sec.
+* Removed the sentence 'Through several functions, this package provides' from the description field.
+* Included relevant citations in the description field.
+* Unwrapped the examples of each function; they are executable in < 5 sec.
 
 
 #### Reviewer comments
@@ -73,35 +100,28 @@ preferable to have automatic checks for functions.
 * ubuntu 14.04 (on travis-ci), R 3.6.1
 * win-builder (devel and release)
 
-#### Submission comments 
+#### R CMD check results
+There were no ERRORs, or WARNINGs.
 
-10-02-2020
+There were 2 NOTEs:
 
-0 errors | 0 warnings | 0 notes
+  * Checking CRAN incoming feasibility ... NOTE
+  Maintainer: 'Luis F. Duque <lfduquey@gmail.com>'
+  
+  According to CRAN Maintainer Uwe Ligges, "This is just a note that reminds CRAN maintainers to check that the          submission comes actually from his maintainer and not anybody else." Thus, it can be considered a harmless note.
 
-* The title was written in title case.
-* The MDBED was omitted in the title.
-* The sentence 'This package' was removed from the description field.
-
-#### Reviewer comments
-
-10-02-2020 CRAN team
-
-* package MDBED_1.0.0.tar.gz does not pass the incoming checks automatically, please see the following pre-tests:
-  Windows: <https://win-builder.r-project.org/incoming_pretest/MDBED_1.0.0_20200211_015504/Windows/00check.log>
-  Status: 2 NOTEs
-  Debian: <https://win-builder.r-project.org/incoming_pretest/MDBED_1.0.0_20200211_015504/Debian/00check.log>
-  Status: 1 NOTE.
-  Please fix all problems and resubmit a fixed version via the webform.
-
-# Round 4
-#### Test environments
-* local OS X install, R 3.6.1
-* ubuntu 14.04 (on travis-ci), R 3.6.1
-* win-builder (devel and release)
+  * checking top-level files ... NOTE
+  Files 'README.md' or 'NEWS.md' cannot be checked without 'pandoc' being installed.
+  
+  It is a harmless note. If I add the README.md file to .Rbuildignore, this note will disappear, but I prefer to leave   it. 
 
 #### Submission comments 
 
-* "\donttest{}" was added to the examples of the functions CDF_3dPlot and Contour_Plot. The run times of these 
-  examples depends on the number of cores of the computer; they can be between 5 and 14 seconds. 
+11-02-2020 This is a resubmission. In this version I have:
+
+  * Written the title in title case.
+  * Omitted the MDBED in the title.
+  * Removed the sentence 'This package' from the description field.
+  * Used "\donttest{}" for the examples of the functions CDF_3dPlot and Contour_Plot. The run times of these 
+  examples depend on the number of cores of the computer; they can be between 5 and 14 seconds.
 

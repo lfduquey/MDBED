@@ -12,7 +12,7 @@
 #' @param x a value or vector of values of the marginal distribution of x.
 #'
 #' @details This function computes the conditional PDF and CDF of Y given X=x. The conditional density is
-#' computed based on the coditional moments of the Moran-Downton model described in Eqs. 21 and 22 in \insertCite{Nagao1971;textual}{MDBED}.
+#' computed based on the conditional moments of the Moran-Downton model described in Eqs. 21 and 22 in \insertCite{Nagao1971;textual}{MDBED}.
 #' The conditional CDF is computed via numerical integration of the conditional PDF based on the Riemann sum method.
 #'
 #'

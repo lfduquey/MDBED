@@ -9,13 +9,13 @@
 #' @param rho Correlation coefficient between marginal distributions of x and y.
 #' @param Betax Scale parameter of the marginal distribution of x.
 #' @param Betay Scale parameter of the marginal distribution of y.
-#' @param Pr A value or vector of values specifing the cumulative joint probability associated to the countour plot.
+#' @param Pr A value or vector of values specifing the cumulative joint probability associated to the contour plot.
 #'           Default values 5\%, 25\%, 75\%, and 95\%.
 #' @param xlabel Label of the x-axis.
 #' @param ylabel Label of the y-axis.
 #' @param title Title of the figure.
 #' @param Rvalues True or False variable (Optional). If TRUE is specified, pairs (x,y) are plotted on the contour plot.
-#' If FALSE is specifed, only the contours are plotted. Deafault FALSE.
+#' If FALSE is specifed, only the contours are plotted. Default FALSE.
 #' @param n Numbers of pairs (x,y) to be plotted if Rvalues is specified as TRUE. Default value 1000.
 #'
 #'
