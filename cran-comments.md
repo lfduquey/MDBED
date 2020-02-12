@@ -123,5 +123,5 @@ There were 2 NOTEs:
   * Omitted the MDBED in the title.
   * Removed the sentence 'This package' from the description field.
   * Used "\donttest{}" for the examples of the functions CDF_3dPlot and Contour_Plot. The run times of these 
-  examples depend on the number of cores of the computer; they can be between 5 and 14 seconds.
+  examples depend on the number of cores of the computer; they can be greater than 5 seconds.
 
