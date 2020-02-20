@@ -156,7 +156,7 @@ etahat<-base::sort(etahat)
 
       eta<-rep(0,length(etahat))
 
-      numCores <- ifelse(parallel::detectCores()>=2,2,1)
+      numCores <- if(parallel::detectCores()>=2){2}else(1)
       doParallel::registerDoParallel(numCores)
       eta<-foreach::foreach(i=1:length(etahat),.combine=c) %dopar% {
         Results<-ConD(etahat[i],rho=rho)

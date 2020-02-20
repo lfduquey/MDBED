@@ -77,7 +77,7 @@ i<-NULL
   y<-rep(y1,length(x1))
   df<-data.frame(x,y)
 
-  numCores <- ifelse(parallel::detectCores()>=2,2,1)
+  numCores <-if(parallel::detectCores()>=2){2}else(1)
   doParallel::registerDoParallel(numCores)
 
 

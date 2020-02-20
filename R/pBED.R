@@ -77,7 +77,7 @@ i<-NULL
 #-----------------------------------------------------------------------------------------------------------------------
 # 4. Apply the CDF function to each pair of values
 
-  numCores <- ifelse(parallel::detectCores()>=2,2,1)
+  numCores <- if(parallel::detectCores()>=2){2}else(1)
   doParallel::registerDoParallel(numCores)
 
   p<-foreach::foreach(i=1:length(x),.combine=c) %dopar% {
