@@ -88,7 +88,7 @@ preferable to have automatic checks for functions.
   
 #### Reviewer's comments
 
-10-02-2020 Martina Schmirl
+20-02-2020 Martina Schmirl
 
   * Please ensure that you do not use more than 2 cores in your examples.
 
@@ -97,4 +97,4 @@ preferable to have automatic checks for functions.
 
 #### Submission comments 
 
-21-02-2020 The functions that use more than one core are CDF_3dPlot, Contour_Plot, pBED, and rBED. They are limited to using a number of cores <=2 (It is done by using a ifelse statement). If they would use more than 2 cores, it would appear in the R CMD check results (which is not the case). Therefore, I do not understand the reviewer's comments. However, in this resubmission, I have changed the ifelse statement by the if… else statement which, I think, is the only thing that can cause an error in the number of cores chosen. However, as I mentioned above, the package passes the RCMD check by using the ifelse statement. 
+21-02-2020 The functions that use more than one core are CDF_3dPlot, Contour_Plot, pBED, and rBED. They are limited to using a number of cores <=2 (It is done by using a ifelse statement). If they would use more than 2 cores, it would appear in the R CMD check results (which is not the case). Therefore, I do not understand the reviewer's comments. However, in this resubmission, I have changed the ifelse statement by the if… else statement which, I think, is the only thing that can cause an error in the number of cores chosen. However, as I mentioned above, the package passes the RCMD check even using the ifelse statement. 
