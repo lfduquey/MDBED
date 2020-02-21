@@ -86,15 +86,3 @@ preferable to have automatic checks for functions.
   * Used "\donttest{}" for the examples of the functions CDF_3dPlot and Contour_Plot. The run times of these 
   examples depend on the number of cores of the computer; they can be greater than 5 seconds.
   
-#### Reviewer's comments
-
-20-02-2020 Martina Schmirl
-
-  * Please ensure that you do not use more than 2 cores in your examples.
-
-
-# Round 4
-
-#### Submission comments 
-
-21-02-2020 The functions that use more than one core are CDF_3dPlot, Contour_Plot, pBED, and rBED. They are limited to using a number of cores <=2 (It is done by using a ifelse statement). If they would use more than 2 cores, it would appear in the R CMD check results (which is not the case). Therefore, I do not understand the reviewer's comments. However, in this resubmission, I have changed the ifelse statement by the if… else statement which, I think, is the only thing that can cause an error in the number of cores chosen. However, as I mentioned above, the package passes the RCMD check even using the ifelse statement. 
