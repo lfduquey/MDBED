@@ -23,9 +23,10 @@ The goal of MDBED is to provide 3D plots of the Moran-Downton bivariate Exponent
 ## Installation
 
 ``` r
-# Install devtools from CRAN
+# Install MDBED from CRAN
 install.packages("MDBED")
 
+# Or the development version from GitHub 
 # install.packages("devtools")
 devtools::install_github("lfduquey/MDBED")
 ```
