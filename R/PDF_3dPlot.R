@@ -84,7 +84,7 @@ PDF_3dPlot<-function(rho,Betax,Betay,xlabel="x",ylabel="y",zlabel="Joint PDF",
 #-----------------------------------------------------------------------------------------------------------------------
 # 5. 3d plot
 
-  graphics::persp(density3d,theta =angle,phi =15,xlab=xlabel,ylab=ylabel,zlab=zlabel,main=title,
+graphics::persp(density3d,theta =angle,phi =15,xlab=xlabel,ylab=ylabel,zlab=zlabel,main=title,
                   ticktype = "detailed",expand = 0.5,d=6)
 
 }
